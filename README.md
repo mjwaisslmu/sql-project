@@ -19,4 +19,18 @@ From the first two APIs, I was able to find data such as ride ids, ride names, l
 
 *** Note: For the sake of this project, I will be focusing primarily on my Disneyland rides data collection ***
 
+## Notebooks
+Here are the following notebooks that I used in the collection of my data and my analysis of the ride times:
 
+Data Collection: 
+
+The purpose of this Data Collection notebook is to make requests to the Disneyland Ride Wait Times API, parse through the data to access ride-specific information, and then compile the data into a data frame so it could be stored in a database.
+
+Data Analysis:
+
+The purpose of this Data Analysis notebook is to utilize SQL in order to access the database with the ride times and analyze the data, performing queries such as average wait time per ride, percent of time a ride is open, and maximum and minimum wait times in a given period. 
+
+## Future Improvements
+Some improvements I would like to make to this project are:
+1. Collect more data from the Disney California Adventure API so that Disneyland and Disney California Adventure could be properly compared.
+2. Implement a Lands Table so that the data could also be filtered by Lands, rather than just by ride and park.
